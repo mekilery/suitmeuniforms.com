@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px" class=""><g transform="matrix(0.9993 0 0 0.9993 0.179146 0.179146)"><g>
+	<g>
+		<g>
+			<path d="M400,288v-20.464l100.8-33.6L445.264,85.808L325.12,0H186.88L66.736,85.808L11.2,233.936l100.8,33.6V288H0v160h112v64     h288v-64h112V288H400z M459.2,214.064L400,233.808v-53.376l28.656-47.776L459.2,214.064z M342,51.376l-40,40l-20.8-13.888     l40.608-40.624L342,51.376z M281.376,32L256,57.376L230.624,32H281.376z M190.272,36.896L230.88,77.52l-20.8,13.888l-40-40     L190.272,36.896z M143.6,70.224l62.4,62.4L256,99.2l50.032,33.36l62.4-62.4l42.288,30.208l-42.72,71.2V288H144V171.568     l-42.688-71.136L143.6,70.224z M52.8,214.064l30.544-81.408L112,180.432v53.376L52.8,214.064z M368,480H144v-32h224V480z      M480,416H32v-96h48v64h32v-64h32v32h32v-32h32v64h32v-64h32v32h32v-32h32v64h32v-64h32v32h32v-32h48V416z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F41C24"/>
+			<rect x="240" y="144" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F41C24"/>
+			<rect x="240" y="208" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F41C24"/>
+		</g>
+	</g>
+</g></g> </svg>

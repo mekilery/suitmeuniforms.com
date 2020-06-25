@@ -2789,6 +2789,13 @@ pre {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll; }
+.img-fluid-2 {
+    max-width: 30%;
+    height: auto; }
+.centralize {
+  text-align: center;
+}
+  
 
 .container {
   width: 100%;
@@ -2808,6 +2815,8 @@ pre {
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
+
+  
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
@@ -6646,6 +6655,9 @@ a.close.disabled {
 @media (min-width: 1200px) {
   .modal-xl {
     max-width: 1140px; } }
+.lf-align {
+  text-align: justify;
+}
 
 .tooltip {
   position: absolute;
@@ -11496,6 +11508,10 @@ img.mfp-img {
 
 .w3l-contact .contacts-sub-9 address a {
   display: block; }
+
+.measurinig assets/images/measuring.svg{
+  fill: #F41C24;
+}
 
 @media (max-width: 992px) {
   .w3l-contact .cont-details p,
