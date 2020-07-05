@@ -8741,6 +8741,9 @@ button.bg-dark:focus {
   .pb-md-5,
   .py-md-5 {
     padding-bottom: 3rem !important; }
+  .pb-md-10,
+  .py-md-10 {
+    padding-bottom: 6rem !important; }
   .pl-md-5,
   .px-md-5 {
     padding-left: 3rem !important; }
@@ -9918,13 +9921,15 @@ h4.sub-title {
 .w3l-index-block4 .features15-para h4 {
   font-size: 22px;
   line-height: 25px;
-  color: var(--title-color); }
+  color: var(--title-color);
+  padding-left: 1rem; }
 
 .w3l-index-block4 .features15-para p {
   color: var(--text-color);
   margin-top: 10px;
   font-size: 16px;
-  line-height: 22px; }
+  line-height: 22px; 
+  padding-left: 1rem;}
 
 .w3l-index-block4 .features15-col-text:hover div.features15-para h4 {
   transition: 0.3s ease-in-out;
@@ -9940,8 +9945,8 @@ h4.sub-title {
   height: 100px;
   margin: auto;
   line-height: 100px;
-  border-radius: 50%;
-  box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10%;
+  box-shadow: 0 0px 6px 0 rgb(255, 0, 0);
   text-align: center; }
 
 .w3l-index-block4 .features15-info span {
@@ -11163,6 +11168,11 @@ button.owl-next {
 
 .mfp-s-error .mfp-content {
   display: none; }
+
+.rounded-border {
+  border-radius: 10%;
+
+}
 
 button.mfp-close,
 button.mfp-arrow {
