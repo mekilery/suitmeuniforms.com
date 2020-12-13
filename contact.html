@@ -16,6 +16,11 @@ Author URL: http://w3layouts.com
     <!-- //web fonts -->
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
   </head>
   <body>
 <div class="w3l-bootstrap-header fixed-top">
@@ -88,7 +93,7 @@ Author URL: http://w3layouts.com
           </div>
         </div>
         <div class="map-content-9 col-md-7 mt-5 mt-md-0">
-          <form action="https://script.google.com/macros/s/AKfycbwYuBMMPbVyO5-8Rip7kil-qnHEESfRShpv9N5u/exec" method="post">
+          <form id="submit-form" action="">
             <div class="form-group row">
               <div class="col-md-6">
                 <label class="contact-textfield-label" for="CustName">First Name</label>
@@ -125,7 +130,7 @@ Author URL: http://w3layouts.com
   </div>
   <div class="map">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059445135!2d-74.25986613799748!3d40.69714941774136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e3!4m0!4m0!5e0!3m2!1sen!2sin!4v1570181661801!5m2!1sen!2sin"
+      src="https://maps.google.com/maps?q=suitme&t=&z=13&ie=UTF8&iwloc=&output=embed" 
       allowfullscreen=""></iframe>
   </div>
 </section>
@@ -252,6 +257,7 @@ Author URL: http://w3layouts.com
       <!-- jQuery, Bootstrap JS -->
       <script src="assets/js/jquery-3.3.1.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
       <!-- Template JavaScript -->
       
@@ -338,6 +344,26 @@ Author URL: http://w3layouts.com
           });
         });
       </script>
+  <script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbxdmBtZrQmATtCjyGFj2Bldc5O8s71Yd_G8VF_DnhZsYzIMKaE/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("We Have Received Your Request. We Will Get Back to You As Soon As Possible. Thank You For Choosing Us ")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Wrong Happenned Please Try Again or Give Us A Call @ +973 33225888")
+
+            }
+        })
+    })
+</script>
+
 
 </body>
 </html>
